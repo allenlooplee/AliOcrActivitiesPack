@@ -3,8 +3,8 @@
   "description": "Basic tests for Ali OCR Activities Pack",
   "main": "RunAllTests.xaml",
   "dependencies": {
+    "Ali.Ocr.Activities": "[0.1.0.429130809]",
     "Custom.Activities.VariableComparer": "[2.1.6]",
-    "Tencent.Ocr.Activities": "[0.1.0.42613728]",
     "TestingFrameworkUi": "[1.3.3]",
     "UiPath.Excel.Activities": "[2.5.2]",
     "UiPath.Mail.Activities": "[1.3.0]",
