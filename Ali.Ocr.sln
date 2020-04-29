@@ -5,25 +5,13 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ali.Ocr", "Ali.Ocr", "{0C4C85E7-0AB1-4E28-8D34-38FB0E0005AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ali.Ocr", "Ali.Ocr\Ali.Ocr\Ali.Ocr.csproj", "{BFD8FC48-DA71-481A-A2E5-0E9B12429DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ali.Ocr", "Ali.Ocr\Ali.Ocr\Ali.Ocr.csproj", "{BFD8FC48-DA71-481A-A2E5-0E9B12429DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ali.Ocr.Activities", "Ali.Ocr\Ali.Ocr.Activities\Ali.Ocr.Activities.csproj", "{92444639-72E3-49E4-B99C-D071ED88D575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ali.Ocr.Activities", "Ali.Ocr\Ali.Ocr.Activities\Ali.Ocr.Activities.csproj", "{92444639-72E3-49E4-B99C-D071ED88D575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ali.Ocr.Activities.Design", "Ali.Ocr\Ali.Ocr.Activities.Design\Ali.Ocr.Activities.Design.csproj", "{48CEB93F-ADCD-4BA2-8F70-5C4DF17140A8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{71EAB00B-8FD6-401F-890E-29CB0032855A}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ali.Ocr.Activities.Design", "Ali.Ocr\Ali.Ocr.Activities.Design\Ali.Ocr.Activities.Design.csproj", "{48CEB93F-ADCD-4BA2-8F70-5C4DF17140A8}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
-		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{48ceb93f-adcd-4ba2-8f70-5c4df17140a8}*SharedItemsImports = 5
-		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{92444639-72e3-49e4-b99c-d071ed88d575}*SharedItemsImports = 5
-		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -49,8 +37,6 @@ Global
 		{BFD8FC48-DA71-481A-A2E5-0E9B12429DDA} = {0C4C85E7-0AB1-4E28-8D34-38FB0E0005AE}
 		{92444639-72E3-49E4-B99C-D071ED88D575} = {0C4C85E7-0AB1-4E28-8D34-38FB0E0005AE}
 		{48CEB93F-ADCD-4BA2-8F70-5C4DF17140A8} = {0C4C85E7-0AB1-4E28-8D34-38FB0E0005AE}
-		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {71EAB00B-8FD6-401F-890E-29CB0032855A}
-		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {71EAB00B-8FD6-401F-890E-29CB0032855A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD4C3586-A287-4CB9-BECF-8AFFBF8EE7F8}
