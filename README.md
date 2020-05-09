@@ -2,6 +2,15 @@
 
 [阿里云](https://ai.aliyun.com/ocr)提供多种OCR，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程。本代码库基于[云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)开发，打通UiPath和阿里OCR，让开发者能在UiPath Studio中通过简单的拖放和设置把阿里OCR用到相关流程中，从而加速开发过程。
 
+## 快速开始
+
+在UiPath Studio中使用阿里OCR活动包可以遵循以下步骤：
+1. **创建项目**：使用[templates/CloudOcrBasicProcess](https://github.com/allenlooplee/CloudOcrActivitiesPack/tree/master/templates/CloudOcrBasicProcess)模版创建OCR流程，你可以查阅[它的文档](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/docs/cloud-ocr-basic-process.md)。
+2. **安装活动包**：在GitHub Releases中下载[v0.1.0 pre-release](https://github.com/allenlooplee/AliOcrActivitiesPack/releases/tag/v0.1.0)，并在UiPath Studio的Manage Packages中安装。
+3. **配置密钥**：在[config/ali_ocr_config.xlsx](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/templates/CloudOcrBasicProcess/config/ali_ocr_config.xlsx)中填入相应的appcode。
+4. **加载密钥**: 使用[snippets/LoadAliOcrConfig.xaml](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/snippets/LoadAliOcrConfig.xaml)代码片段从上述配置文件加载密钥。
+5. **使用活动**：把你想使用的OCR活动从Activities面板拖到OCR Scope活动中。
+
 ## OCR活动清单
 
 本活动包支持以下[云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)的OCR活动：
