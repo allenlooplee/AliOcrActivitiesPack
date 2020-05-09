@@ -2,6 +2,22 @@
 
 [阿里云](https://ai.aliyun.com/ocr)提供多种OCR，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程。本代码库基于[云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)开发，打通UiPath和阿里OCR，让开发者能在UiPath Studio中通过简单的拖放和设置把阿里OCR用到相关流程中，从而加速开发过程。
 
+## OCR活动清单
+
+本活动包支持以下[云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)的OCR活动：
+
+#|名称|类型|活动
+---|---|---|---
+1|[银行卡识别](https://help.aliyun.com/document_detail/51930.html)|证照类|[BankCardActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/BankCardActivity.cs)
+2|[营业执照识别](https://help.aliyun.com/document_detail/43167.html)|公司商铺类|[BusinessLicenseActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/BusinessLicenseActivity.cs)
+3|[身份证识别](https://help.aliyun.com/document_detail/30407.html)|证照类|[IdCardActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/IdCardActivity.cs)
+4|[出租车票识别](https://help.aliyun.com/document_detail/91909.html)|票据类|[TaxiReceiptActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/TaxiReceiptActivity.cs)
+5|[火车票识别](https://help.aliyun.com/document_detail/66335.html)|票据类|[TrainTicketActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/TrainTicketActivity.cs)
+6|[户口本识别](https://help.aliyun.com/document_detail/92723.html)|证照类|[HouseholdRegisterActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/HouseholdRegisterActivity.cs)
+7|[护照识别](https://help.aliyun.com/document_detail/51985.html)|证照类|[PassportActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/PassportActivity.cs)
+8|[驾驶证识别](https://help.aliyun.com/document_detail/30408.html)|车辆相关|[DriverLicenseActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/DriverLicenseActivity.cs)
+9|[行驶证识别](https://help.aliyun.com/document_detail/42774.html)|车辆相关|[VehicleLicenseActivity](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/Cloud.Ocr/Cloud.Ocr.Activities/Activities/VehicleLicenseActivity.cs)
+
 ## 其他代码库和参考资料
 * [云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)
 * [阿里OCR API文档](https://help.aliyun.com/document_detail/30403.html)
