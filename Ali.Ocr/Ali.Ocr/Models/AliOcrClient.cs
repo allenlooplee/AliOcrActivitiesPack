@@ -9,7 +9,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ali.Ocr
+namespace Ali.Ocr.Models
 {
     public class AliOcrClient : IOcrClient
     {

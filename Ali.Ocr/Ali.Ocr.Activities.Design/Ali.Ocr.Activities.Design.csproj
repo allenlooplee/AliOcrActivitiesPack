@@ -30,6 +30,7 @@
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Designers\AliOcrClientActivityDesigner.xaml" />
     <None Remove="Themes\Generic.xaml" />
   </ItemGroup>
   <!-- Package Icon -->
@@ -71,6 +72,9 @@
     <Reference Include="System.Activities.Core.Presentation" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Designers\AliOcrClientActivityDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
     <Page Include="Themes\Generic.xaml">
       <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>
@@ -82,9 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ali.Ocr.Activities\Ali.Ocr.Activities.csproj" PrivateAssets="All" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Designers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.415144644" />
