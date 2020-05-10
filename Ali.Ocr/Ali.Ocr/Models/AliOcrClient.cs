@@ -1,4 +1,5 @@
-﻿using Cloud.Ocr.Contracts;
+﻿using Cloud.Ocr.Activities;
+using Cloud.Ocr.Contracts;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,18 @@ namespace Ali.Ocr.Models
             var imageBase64 = Convert.ToBase64String(imageData);
 
             var body = new JObject(new JProperty("image", imageBase64));
+
+            // When IdCardActivity is used, options will contain the key CardSide.
+            // In this case, set configure\side for the ID card OCR API.
+            var optionKey = nameof(IdCardActivity.CardSide);
+            if (options != null && options.ContainsKey(optionKey))
+            {
+                var cardSideValue = (CardSide)options[optionKey];
+                body.Add("configure",
+                new JObject(
+                    new JProperty("side", cardSideValue == CardSide.Front ? "face" : "back")));
+            }
+
             var bodyData = Encoding.UTF8.GetBytes(body.ToString());
 
             using (var client = new WebClient())
